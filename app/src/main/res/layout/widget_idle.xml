@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- No background anywhere, so only the image's own pixels are drawn. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:importantForAccessibility="no"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/widget_hint_bg"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="10dp"
+        android:text="@string/widget_hint"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.Button"
+        android:textColor="@color/widget_hint_fg"
+        android:visibility="gone" />
+
+    <!-- Transparent tap target; plain View isn't allowed in RemoteViews. -->
+    <FrameLayout
+        android:id="@+id/tap"
+        android:contentDescription="@string/widget_tap_description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

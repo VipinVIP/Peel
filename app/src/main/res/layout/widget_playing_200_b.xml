@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AdapterViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateFirstView="false"
+        android:autoStart="true"
+        android:flipInterval="200"
+        android:inAnimation="@animator/frame_in"
+        android:outAnimation="@animator/frame_out" />
+
+    <!-- Transparent tap target; plain View isn't allowed in RemoteViews. -->
+    <FrameLayout
+        android:id="@+id/tap"
+        android:contentDescription="@string/widget_tap_description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

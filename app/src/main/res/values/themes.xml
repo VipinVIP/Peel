@@ -1,0 +1,15 @@
+<resources>
+    <!-- Window-level theme only; all in-app UI is drawn by Compose's MaterialTheme. -->
+    <style name="Theme.Peel" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <!-- Picker host: invisible until it has something to show. -->
+    <style name="Theme.Peel.Translucent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

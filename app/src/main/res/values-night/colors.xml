@@ -1,0 +1,4 @@
+<resources>
+    <color name="widget_hint_bg">@android:color/system_accent2_700</color>
+    <color name="widget_hint_fg">@android:color/system_accent2_50</color>
+</resources>

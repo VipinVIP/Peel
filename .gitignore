@@ -1,0 +1,18 @@
+# Gradle / build output
+.gradle/
+.kotlin/
+build/
+**/build/
+
+# Local machine config (SDK path)
+local.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Signing material must never be committed
+*.jks
+*.keystore
+keystore.properties

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Instant swap: the flipper hides outgoing frames through this alpha, so it must reach 0/1. -->
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="0"
+    android:propertyName="alpha"
+    android:valueFrom="0"
+    android:valueTo="1" />

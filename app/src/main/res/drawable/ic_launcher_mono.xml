@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Themed-icon version: one color only. The front of the sticker is solid with the face cut out.
+     The peeled corner is cut out of the front too and drawn as an outline with a faint fill, so it
+     reads as the lighter back of the paper. Launchers that drop partial alpha show the background
+     there instead, which reads the same way. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="-8"
+        android:scaleX="0.92"
+        android:scaleY="0.92">
+        <path
+            android:fillColor="#FF000000"
+            android:fillType="evenOdd"
+            android:pathData="M42,30H66A12,12 0,0 1,78 42V58L58,78H42A12,12 0,0 1,30 66V42A12,12 0,0 1,42 30Z M44,49a3,3.8 0,1 0,6 0a3,3.8 0,1 0,-6 0Z M57,49a3,3.8 0,1 0,6 0a3,3.8 0,1 0,-6 0Z M48.6,57.2Q53.5,62.6 58.4,57.2Q53.5,64.6 48.6,57.2Z M78,58L58,78Q59.6,67 62.5,62.5Q67,59.6 78,58Z" />
+        <!-- Clipped to the sticker's outline so the fold's stroke never pokes past its edge. -->
+        <group>
+            <clip-path android:pathData="M42,30H66A12,12 0,0 1,78 42V58L58,78H42A12,12 0,0 1,30 66V42A12,12 0,0 1,42 30Z" />
+            <path
+                android:fillAlpha="0.3"
+                android:fillColor="#FF000000"
+                android:pathData="M78,58L58,78Q59.6,67 62.5,62.5Q67,59.6 78,58Z"
+                android:strokeWidth="2"
+                android:strokeColor="#FF000000"
+                android:strokeLineJoin="round" />
+        </group>
+    </group>
+</vector>

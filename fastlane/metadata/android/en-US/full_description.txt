@@ -1,0 +1,14 @@
+Peel puts stickers on your home screen. Pick a GIF or WebP, animated or still, and tap the sticker to play it.
+
+Transparent parts of the image show your wallpaper, so there is no box or background: just the sticker.
+
+Features:
+• Truly transparent home-screen widget
+• Tap to play; choose 1–50 plays per tap, or loop until tapped again
+• Several stickers can play at the same time
+• GIF and WebP, animated or still, up to 40 MB
+• Material You design with dynamic color, light and dark theme
+
+Privacy: Peel has no internet permission, ads or tracking. Your images are processed on your phone and never leave it.
+
+Peel is free and open source under the MIT License.

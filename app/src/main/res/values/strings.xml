@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Peel</string>
+    <string name="app_tagline">Sticker Widget</string>
+    <string name="widget_name">Peel sticker</string>
+    <string name="widget_description">A transparent sticker that plays a GIF or WebP when you tap it</string>
+    <string name="widget_hint">Choose an image</string>
+    <string name="widget_tap_description">Play or stop animation</string>
+
+    <string name="home_title">Peel</string>
+    <string name="add_widget">Add sticker</string>
+    <string name="your_widgets">Your stickers</string>
+    <string name="widget_label">Sticker %1$d</string>
+    <string name="widget_stats">%1$d frames · %2$s s</string>
+    <string name="widget_still">Still image</string>
+    <string name="widget_empty">No image chosen yet</string>
+    <string name="change_gif">Change</string>
+    <string name="choose_gif">Choose image</string>
+    <string name="plays_per_tap">Plays per tap</string>
+    <string name="loops_forever">Forever</string>
+    <string name="loops_forever_description">Loops until tapped again</string>
+    <string name="loops_type">Tap to type a number</string>
+    <string name="loops_range">Between 1 and %1$d</string>
+    <string name="loops_set">Set</string>
+    <string name="loops_fewer">Fewer plays</string>
+    <string name="loops_more">More plays</string>
+    <plurals name="loops_description">
+        <item quantity="one">Play once</item>
+        <item quantity="other">Play %d times</item>
+    </plurals>
+    <string name="preview_description">Animation preview for sticker %1$d</string>
+    <string name="preview_description_single">Animation preview</string>
+    <string name="widget_settings_title">Sticker settings</string>
+    <string name="change_gif_long">Change image</string>
+    <string name="done">Done</string>
+    <string name="preview_play">Preview animation</string>
+    <string name="preview_stop">Stop preview</string>
+
+    <string name="empty_title">No stickers yet</string>
+    <string name="empty_body">Put a sticker on your home screen, then pick a GIF or WebP for it.</string>
+
+    <string name="start_title">Getting started</string>
+    <string name="start_add_title">Add a sticker</string>
+    <string name="start_add_body">Use Add sticker, or find Peel in your launcher\'s widget list.</string>
+    <string name="start_pick_title">Pick an image</string>
+    <string name="start_pick_body">A GIF or WebP, animated or still, up to %1$d MB. Transparent parts show your wallpaper.</string>
+    <string name="start_tap_title">Tap to play</string>
+    <string name="start_tap_body">Plays as many times as you set, then rests on its best frame. Tap again to stop early.</string>
+    <string name="start_change_title">Change it anytime</string>
+    <string name="start_change_body">Use Change here, or long-press the sticker and choose Widget settings (some launchers say Edit or show a pencil).</string>
+
+    <string name="pin_unsupported">Your launcher can\'t add widgets from apps. Add \"Peel sticker\" from its widget list instead.</string>
+
+    <string name="preparing_title">Preparing your image</string>
+    <string name="preparing_body">Splitting it into frames for the home screen…</string>
+    <string name="decode_failed_title">Couldn\'t use that file</string>
+    <string name="decode_failed_body">Pick a GIF or WebP image.</string>
+    <string name="decode_too_large_body">That file is too large. Pick one under %1$d MB.</string>
+    <string name="try_again">Choose another</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="more_options">More options</string>
+    <string name="about">About</string>
+    <string name="navigate_up">Back</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_description">Transparent, tap-to-play stickers for your home screen. Free and open source.</string>
+    <string name="about_section_project">Project</string>
+    <string name="about_source">Source code</string>
+    <string name="about_issues">Report an issue</string>
+    <string name="about_issues_body">Bugs, ideas and feature requests</string>
+    <string name="about_license">License</string>
+    <string name="about_license_body">MIT License</string>
+    <string name="about_author">Developer</string>
+    <string name="about_section_privacy">Privacy</string>
+    <string name="about_privacy_title">No data collected</string>
+    <string name="about_privacy_body">Peel has no internet access, ads or tracking. Your images are processed on your phone and never leave it.</string>
+    <string name="about_section_libraries">Open-source libraries</string>
+    <string name="about_apache">Apache License 2.0</string>
+    <string name="about_no_browser">No app found to open links</string>
+    <string name="close">Close</string>
+</resources>
